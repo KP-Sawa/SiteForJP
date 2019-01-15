@@ -98,31 +98,6 @@ body {
     -webkit-background-size: cover;
     background-size: cover;
 }
-.imgA{
-    /* -moz-background: rgba(54, 153, 99, 0) url("../img/d.jpg") center center fixed no-repeat;
-    -webkit-background: rgba(54, 153, 99, 0) url("../img/d.jpg") center center fixed no-repeat;
-    background: rgba(54, 153, 99, 0) url("../img/d.jpg") center center fixed no-repeat; */
-}
-.imgB{
-    -moz-background: #000 url("../img/c.jpg") center center fixed no-repeat;
-    -webkit-background: #000 url("../img/c.jpg") center center fixed no-repeat;
-    background: #000 url("../img/c.jpg") center center fixed no-repeat;
-}
-.imgC{
-    -moz-background: #000 url("../img/a.jpg") center center fixed no-repeat;
-    -webkit-background: #000 url("../img/a.jpg") center center fixed no-repeat;
-    background: #000 url("../img/a.jpg") center center fixed no-repeat;
-}
-.imgD{
-    -moz-background: #000 url("../img/b.jpg") center center fixed no-repeat;
-    -webkit-background: #000 url("../img/b.jpg") center center fixed no-repeat;
-    background: #000 url("../img/b.jpg") center center fixed no-repeat;
-}
-.imgE{
-    -moz-background: #000 url("../img/e.jpg") center center fixed no-repeat;
-    -webkit-background: #000 url("../img/e.jpg") center center fixed no-repeat;
-    background: #000 url("../img/e.jpg") center center fixed no-repeat;
-}
 .title{
     position: absolute;
     color: #fff;
