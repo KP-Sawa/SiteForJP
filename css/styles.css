@@ -1,0 +1,122 @@
+* {
+    position: relative;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    /* border: 1px solid #000; */
+    padding-top: 3.5rem;
+    /* height: 100vh; */
+}
+
+.header__bg {
+    background-color: #4a4a4a;
+}
+
+.header__logo {
+    color: #fff;
+}
+
+.header__link {
+    color: #9b9b9b;
+    margin: 0 1rem;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.header__link.active,
+.header__link:hover {
+    color: #fff;
+    transition: color 0.3s;
+    /* font-weight: 700; */
+}
+
+@media screen and (min-width:992px) {
+    .header__link:after {
+        content: "";
+        width: 0%;
+        height: .25rem;
+        background-color: #fff;
+        display: inline-block;
+        position: absolute;
+        top: -0.5rem;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: width 0.3s;
+    }
+
+    .header__link.active:after,
+    .header__link:hover:after {
+        width: 100%;
+    }
+}
+
+.for__sec {
+    margin-top: 3.5rem;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.card {
+    margin: 1rem 0;
+    border-radius: .5rem;
+}
+
+.sec__Home {}
+
+.sec__AboutMe {}
+
+.sec__Experience {
+    background-color: #eaeaea;
+}
+
+.sec__HowILearn {}
+
+.sec__Motivation {
+    background-color: #eaeaea;
+}
+
+.sec__Plan {}
+
+.enter {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.imgA, .imgB, .imgC, .imgD, .imgE{
+    margin:0;
+    padding:0;
+    height: 100vh;
+    width: 100vw;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+.imgA{
+    background: #000 url("../img/d.jpg") center center fixed no-repeat;
+}
+.imgB{
+    background: #000 url("../img/c.jpg") center center fixed no-repeat;
+}
+.imgC{
+    background: #000 url("../img/a.jpg") center center fixed no-repeat;
+}
+.imgD{
+    background: #000 url("../img/b.jpg") center center fixed no-repeat;
+}
+.imgE{
+    background: #000 url("../img/e.jpg") center center fixed no-repeat;
+}
+.title{
+    position: absolute;
+    color: #fff;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
