@@ -99,9 +99,9 @@ body {
     background-size: cover;
 }
 .imgA{
-    -moz-background: rgba(0,0,0,0) url("../img/d.jpg") center center fixed no-repeat;
-    -webkit-background: rgba(0,0,0,0) url("../img/d.jpg") center center fixed no-repeat;
-    background: rgba(0,0,0,0) url("../img/d.jpg") center center fixed no-repeat;
+    -moz-background: rgba(54, 153, 99, 0) url("../img/d.jpg") center center fixed no-repeat;
+    -webkit-background: rgba(54, 153, 99, 0) url("../img/d.jpg") center center fixed no-repeat;
+    background: rgba(54, 153, 99, 0) url("../img/d.jpg") center center fixed no-repeat;
 }
 .imgB{
     -moz-background: #000 url("../img/c.jpg") center center fixed no-repeat;
